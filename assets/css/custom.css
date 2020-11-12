@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Barlow;
+  src: url("Barlow-Bold.otf") format("otf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url("BarlowCondensed-Regular.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url("BarlowCondensed-SemiBold.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url("BarlowCondensed-Bold.otf") format("otf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: Barlow, sans-serif;
+  background-color: #fafbfc;
+  color: #49585f;
+}
+
+.main {
+  padding: 2em 15em;
+}
+
+.main-outer {
+  background-color: #ffffff;
+  height: 65vh;
+}
+
+.main-outer .upload {
+  padding: 3em 2em 1em 1em;
+}
+
+.main-inner {
+  height: inherit;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.8em 2.5em;
+  border-radius: 4px;
+  border: none;
+}
+
+.upload-btn {
+  background-color: #f07f1f;
+  color: #fce0c8;
+  cursor: pointer;
+}
+
+.upload-text {
+  font-size: 10px;
+  color: rgb(194, 195, 200);
+}
+
+.main-outer__header {
+  padding: 0.1em 2em 1em 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-outer__header > div {
+  display: flex;
+  align-items: center;
+}
