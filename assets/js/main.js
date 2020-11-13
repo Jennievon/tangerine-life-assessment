@@ -53,9 +53,6 @@ function get_header_row(sheet) {
       alert(
         "Please, upload a valid Excel file with matching column headers, following the format - Fullname, Phone Number, Address, State, LGA, Date of Birth, Salary, Gender, Call Allowance, Transport Allowance"
       );
-      //   setTimeout(() => {
-      //     alertBox.style.display = "block";
-      //   }, 3000);
       throw "error";
     }
   }
@@ -95,6 +92,7 @@ const submitData = (file) => {
       console.log("Success:", result);
     })
     .catch((error) => {
+      alert("Please check your network connection");
       console.error("Error:", error);
     });
 };
