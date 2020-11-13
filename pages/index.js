@@ -8,11 +8,10 @@ const IndexPage = () => {
         <img src="/assets/img/cloud-upload-icon_15.svg" alt="" height="100" />
         <p class="upload-text">Drag and drop a file here</p>
         <p class="upload-text">or</p>
-        <input
-          type="file"
-          class="btn upload-btn"
-          id="fileUpload"
-        />
+        <label class="btn fileupload-label">
+          <input type="file" id="fileUpload" required/>
+          <span>Choose a file</span>
+        </label>
       </div>
     </div>
   </div>
