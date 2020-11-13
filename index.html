@@ -7,19 +7,10 @@
     <link rel="stylesheet" href="/assets/css/custom.css" />
   </head>
   <body>
-    <div class="index-main">
-      <h4>Upload</h4>
-      <div class="upload">
-        <div class="main-inner">
-          <div>
-            <img src="/assets/img/cloud-upload-icon_15.svg" alt="" height="100" />
-            <p class="upload-text">Drag and drop a file here</p>
-            <p class="upload-text">or</p>
-            <button class="btn upload-btn" onclick="window.location.href = '/pages/columns.html'">Choose a file</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="app"></div>
   </body>
-  <script src="/assets/js/main.js"></script>
+  <script src="./assets/js/spa.js" type="module"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+  <script src="/assets/js/main.js" type="module"></script>
 </html>
