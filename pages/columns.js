@@ -7,7 +7,7 @@ const Column = () => {
         <div class="main-outer__header">
           <h5>Column Mapping</h5>
           <div>
-            <button class="btn save-btn">Save</button>
+            <button type="submit" id="saveBtn" class="btn save-btn">Save</button>
           </div>
         </div>
         <div class="nametable" id="tabled">

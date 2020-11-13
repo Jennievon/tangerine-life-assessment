@@ -38,6 +38,18 @@ body {
   padding: 0;
 }
 
+.text-red {
+  color: #f57676;
+}
+
+.alert-box {
+  /* border: 1px solid #e0d9d9;
+  padding: 0 1em 0.2em; */
+  display: none;
+  margin: 0.5em;
+  line-height: 1.5;
+}
+
 .index-main {
   padding: 2em 15em;
 }
