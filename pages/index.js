@@ -9,7 +9,7 @@ const IndexPage = () => {
         <p class="upload-text">Drag and drop a file here</p>
         <p class="upload-text">or</p>
         <label class="btn fileupload-label">
-          <input type="file" id="fileUpload" required/>
+          <input type="file" id="fileUpload" accept=".xls, .xlsx" required/>
           <span>Choose a file</span>
         </label>
       </div>
